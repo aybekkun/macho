@@ -4,7 +4,7 @@
   font-style: normal;
   src: local("Quicksand-Medium"),
     url("../fonts/Quicksand-Medium.wof2") format("wof2"),
-    url("../fonts/Quicksand-Medium.woff1") format("woff");
+    url("../fonts/Quicksand-Medium.woff") format("woff");
   font-display: swap;
 }
 @font-face {
@@ -13,7 +13,7 @@
   font-style: normal;
   src: local("Quicksand-Regular"),
     url("../fonts/Quicksand-Regular.wof2") format("wof2"),
-    url("../fonts/Quicksand-Regular.woff1") format("woff");
+    url("../fonts/Quicksand-Regular.woff") format("woff");
   font-display: swap;
 }
 @font-face {
@@ -22,7 +22,7 @@
     font-style: normal;
     src: local("Roboto-Bold"),
       url("../fonts/Roboto-Bold.wof2") format("wof2"),
-      url("../fonts/Roboto-Bold.woff1") format("woff");
+      url("../fonts/Roboto-Bold.woff") format("woff");
     font-display: swap;
   }
   
@@ -32,6 +32,6 @@
   font-style: normal;
   src: local("Roboto-Medium"),
     url("../fonts/Roboto-Regular.wof2") format("wof2"),
-    url("../fonts/Roboto-Regular.woff1") format("woff");
+    url("../fonts/Roboto-Regular.woff") format("woff");
   font-display: swap;
 }
