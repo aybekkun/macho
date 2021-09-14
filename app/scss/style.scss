@@ -150,14 +150,16 @@
   &__text {
     margin-bottom: 25px;
   }
-
+&__form{
+  display: flex;
+}
   &__form-input {
     background-color: #fff;
     max-width: 320px;
     width: 100%;
     border: none;
     padding: 12px 10px 12px 15px;
-
+    margin-right: 3px;
     &::placeholder {
       color: $default;
       font-size: 16px;
