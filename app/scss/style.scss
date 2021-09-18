@@ -11,11 +11,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
 }
 
 .menu {
+
   // .menu__list
+  &__btn {
+    display: none;
+  }
 
   &__list {
     display: flex;
@@ -84,6 +89,7 @@
   border-bottom: 1px solid #ececec;
   display: flex;
 
+
   &__contact {
     width: 250px;
     margin-right: 50px;
@@ -150,9 +156,11 @@
   &__text {
     margin-bottom: 25px;
   }
-&__form{
-  display: flex;
-}
+
+  &__form {
+    display: flex;
+  }
+
   &__form-input {
     background-color: #fff;
     max-width: 320px;
@@ -160,6 +168,7 @@
     border: none;
     padding: 12px 10px 12px 15px;
     margin-right: 3px;
+
     &::placeholder {
       color: $default;
       font-size: 16px;
@@ -174,11 +183,12 @@
 }
 
 .footer-bottom {
-  height: 75px;
+  min-height: 75px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
+  flex-wrap: wrap;
 
   &__accept {}
 
@@ -2296,17 +2306,20 @@
     resize: none;
     height: 200px;
     background-color: $bg;
-    border:none;
+    border: none;
     margin-bottom: 30px;
   }
-  &__form-box{
+
+  &__form-box {
     display: flex;
     justify-content: space-between;
-    input{
+
+    input {
       width: 330px;
     }
   }
-  &__form-btn{
+
+  &__form-btn {
     @extend %btn;
     border: none;
   }
